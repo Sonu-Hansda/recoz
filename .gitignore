@@ -42,3 +42,20 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Flutter/Dart specific
+**/build/
+**/ios/Pods/
+**/android/.gradle/
+**/android/app/build/
+**/android/build/
+**/.dart_tool/
+**/.idea/
+
+# Android specific
+**/android/app/google-services.json
+**/android/app/debug.keystore
+**/android/key.properties
+
+# Visual Studio Code specific
+.vscode/
